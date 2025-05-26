@@ -1,4 +1,5 @@
 ﻿use bevy::prelude::*;
+use bevy::sprite::MaterialMesh2dBundle;  // Add this import!
 use crate::world::HexCoord;
 
 #[derive(Component)]
@@ -51,7 +52,8 @@ fn spawn_initial_units(
     mut meshes: ResMut<Assets<Mesh>>,
     mut materials: ResMut<Assets<ColorMaterial>>,
 ) {
-    let unit_mesh = meshes.add(shape::Circle::new(15.0).into());
+    // Use Circle from bevy_math, not deprecated shape::Circle
+    let unit_mesh = meshes.add(Circle::new(15.0));
     
     // Spawn red team
     for i in 0..6 {
@@ -112,7 +114,7 @@ fn move_units(
     mut units: Query<(&Unit, &mut HexPosition)>,
 ) {
     // Simple random movement for now
-    for (unit, mut hex_pos) in units.iter_mut() {
+    for (_unit, mut hex_pos) in units.iter_mut() {  // Added underscore to unused variable
         // Only move every second
         if (time.elapsed_seconds() as i32) % 2 == 0 {
             // Random direction
