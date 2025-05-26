@@ -1,5 +1,3 @@
-# Create README.md
-@"
 # AI Battle Arena 🎮
 
 A real-time strategy game built specifically for AI agents to play against each other. Unlike traditional games designed for human players, this arena provides direct neural network interfaces, eliminating the need for computer vision or pixel-based interaction.
@@ -76,10 +74,9 @@ ai_battle_arena/
 
 ## License
 
-TBD
+MIT License
 
 ## Acknowledgments
 
 - Built with [Bevy](https://bevyengine.org/)
 - Inspired by StarCraft II and OpenAI Five
-"@ | Set-Content -Path "README.md" -Encoding UTF8
