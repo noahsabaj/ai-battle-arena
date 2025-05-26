@@ -1,5 +1,5 @@
 ﻿use bevy::prelude::*;
-use bevy::sprite::MaterialMesh2dBundle;  // Add this import!
+use bevy::sprite::MaterialMesh2dBundle;
 use crate::world::HexCoord;
 
 #[derive(Component)]
@@ -52,7 +52,6 @@ fn spawn_initial_units(
     mut meshes: ResMut<Assets<Mesh>>,
     mut materials: ResMut<Assets<ColorMaterial>>,
 ) {
-    // Use Circle from bevy_math, not deprecated shape::Circle
     let unit_mesh = meshes.add(Circle::new(15.0));
     
     // Spawn red team
@@ -113,22 +112,31 @@ fn move_units(
     time: Res<Time>,
     mut units: Query<(&Unit, &mut HexPosition)>,
 ) {
-    // Simple random movement for now
-    for (_unit, mut hex_pos) in units.iter_mut() {  // Added underscore to unused variable
-        // Only move every second
-        if (time.elapsed_seconds() as i32) % 2 == 0 {
-            // Random direction
+    // Simple movement - units move occasionally
+    for (_unit, mut hex_pos) in units.iter_mut() {
+        // Move every 2 seconds
+        let current_second = time.elapsed_seconds() as i32;
+        if current_second % 2 == 0 {
+            // Use a simple counter instead of coord-based randomness to avoid overflow
+            let move_counter = (current_second / 2) as usize;
+            
+            // Random-ish direction based on time
             let directions = [(1, 0), (1, -1), (0, -1), (-1, 0), (-1, 1), (0, 1)];
-            let dir_index = (time.elapsed_seconds() as usize + hex_pos.coord.q as usize) % 6;
+            let dir_index = move_counter % 6;
             let (dq, dr) = directions[dir_index];
             
-            // Update position (with bounds checking)
+            // Calculate new position
             let new_q = hex_pos.coord.q + dq;
             let new_r = hex_pos.coord.r + dr;
             
+            // Keep units within bounds
             if new_q.abs() < 10 && new_r.abs() < 8 {
-                hex_pos.coord.q = new_q;
-                hex_pos.coord.r = new_r;
+                // Only update if we haven't moved this frame already
+                // (prevents multiple moves in the same second)
+                if hex_pos.coord.q != new_q || hex_pos.coord.r != new_r {
+                    hex_pos.coord.q = new_q;
+                    hex_pos.coord.r = new_r;
+                }
             }
         }
     }
