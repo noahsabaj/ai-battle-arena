@@ -1,0 +1,6 @@
+﻿/target
+/data/logs/*
+/data/replays/*
+*.pyc
+__pycache__
+.env

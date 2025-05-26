@@ -1,0 +1,36 @@
+﻿[package]
+name = "ai_battle_arena"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Graphics and Game Engine
+bevy = "0.13"
+
+# Error handling
+anyhow = "1.0"
+thiserror = "1.0"
+
+# Logging
+log = "0.4"
+env_logger = "0.10"
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Async runtime
+tokio = { version = "1.35", features = ["full"] }
+
+# Math and Random
+nalgebra = "0.32"
+rand = "0.8"
+
+# Time
+chrono = "0.4"
+
+# Collections
+indexmap = "2.1"
+
+# Python integration (we'll add this later)
+# pyo3 = { version = "0.20", features = ["auto-initialize"] }
