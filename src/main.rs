@@ -7,6 +7,7 @@ mod ai;
 mod utils;
 
 use world::hex_grid::HexGridPlugin;
+use world::unit::UnitsPlugin;
 
 fn main() {
     App::new()
@@ -19,10 +20,11 @@ fn main() {
                 }),
                 ..default()
             }),
-            HexGridPlugin,  // Add our hex grid plugin!
+            HexGridPlugin,
+            UnitsPlugin,  // Add units plugin!
         ))
         .add_systems(Startup, setup)
-        .add_systems(Update, (update_game_loop, handle_input))
+        .add_systems(Update, (handle_input, game_tick))
         .run();
 }
 
@@ -30,7 +32,7 @@ fn setup(mut commands: Commands) {
     // Add a 2D camera
     commands.spawn(Camera2dBundle::default());
     
-    // Add title text
+    // UI Text
     commands.spawn((
         TextBundle::from_section(
             "AI Battle Arena",
@@ -48,10 +50,9 @@ fn setup(mut commands: Commands) {
         }),
     ));
     
-    // Add instructions
     commands.spawn((
         TextBundle::from_section(
-            "Press SPACE to start simulation\nESC to quit\nArrow keys to pan camera",
+            "Red vs Blue | SPACE: pause | Arrows: pan | R: reset",
             TextStyle {
                 font_size: 24.0,
                 color: Color::rgb(0.7, 0.7, 0.7),
@@ -67,10 +68,6 @@ fn setup(mut commands: Commands) {
     ));
 }
 
-fn update_game_loop() {
-    // Game logic will go here
-}
-
 fn handle_input(
     keyboard_input: Res<ButtonInput<KeyCode>>,
     mut exit: EventWriter<AppExit>,
@@ -82,7 +79,11 @@ fn handle_input(
     }
     
     if keyboard_input.just_pressed(KeyCode::Space) {
-        println!("Starting simulation!");
+        println!("Game paused/resumed!");
+    }
+    
+    if keyboard_input.just_pressed(KeyCode::KeyR) {
+        println!("Reset game!");
     }
     
     // Camera movement
@@ -101,5 +102,13 @@ fn handle_input(
         if keyboard_input.pressed(KeyCode::ArrowDown) {
             camera_transform.translation.y -= speed;
         }
+    }
+}
+
+fn game_tick(time: Res<Time>) {
+    // This will eventually run game logic at 1000 TPS
+    // For now, just tracks elapsed time
+    if time.elapsed_seconds() as i32 % 5 == 0 {
+        // Log every 5 seconds
     }
 }

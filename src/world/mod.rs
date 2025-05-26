@@ -4,5 +4,5 @@ pub mod resource;
 pub mod actions;
 
 pub use hex_grid::*;
-pub use unit::Unit;
+pub use unit::*;
 pub use resource::Resource;
