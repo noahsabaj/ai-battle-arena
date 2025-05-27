@@ -97,8 +97,17 @@ impl BatchRunner {
     }
 }
 
+// Use Arc<Mutex<>> to share result between systems and main thread
 fn run_single_game(game_id: usize, config: &BatchGameConfig) -> GameResult {
     let start_time = Instant::now();
+    
+    // Create shared result
+    let result = Arc::new(Mutex::new(BatchGameResult {
+        game_id,
+        outcome: None,
+        turns: 0,
+        completed: false,
+    }));
     
     // Create a minimal Bevy app for headless simulation
     let mut app = App::new();
@@ -130,37 +139,31 @@ fn run_single_game(game_id: usize, config: &BatchGameConfig) -> GameResult {
     app.insert_resource(config.sim_config.clone());
     app.insert_resource(config.game_config.clone());
     
-    // Add game end detection
-    app.insert_resource(BatchGameResult {
-        game_id,
-        outcome: None,
-        turns: 0,
-        completed: false,
-    });
-    app.insert_resource(config.game_config.clone());
-    
-    
+    // Insert shared result
+    app.insert_resource(BatchGameResultHandle(result.clone()));
     
     app.add_systems(Update, check_game_end);
     
     // Run until game ends
     app.run();
     
-    // Extract results
-    let batch_result = app.world.resource::<BatchGameResult>();
+    // Extract results from shared state
+    let result_lock = result.lock().unwrap();
     let duration = start_time.elapsed().as_secs_f64();
-    let final_tps = batch_result.turns as f64 / duration;
+    let final_tps = result_lock.turns as f64 / duration;
     
     GameResult {
         game_id,
-        winner: batch_result.outcome.clone().unwrap_or(GameOutcome::Draw),
-        total_turns: batch_result.turns,
+        winner: result_lock.outcome.clone().unwrap_or(GameOutcome::Draw),
+        total_turns: result_lock.turns,
         duration_secs: duration,
         final_tps,
     }
 }
 
 #[derive(Resource)]
+struct BatchGameResultHandle(Arc<Mutex<BatchGameResult>>);
+
 struct BatchGameResult {
     game_id: usize,
     outcome: Option<GameOutcome>,
@@ -172,9 +175,11 @@ fn check_game_end(
     game_over: Res<crate::game::GameOver>,
     turn_state: Res<crate::game::TurnState>,
     units: Query<&crate::units::Unit>,
-    mut result: ResMut<BatchGameResult>,
+    result_handle: Res<BatchGameResultHandle>,
     mut exit: EventWriter<AppExit>,
 ) {
+    let mut result = result_handle.0.lock().unwrap();
+    
     if !result.completed {
         result.turns = turn_state.turn;
         
@@ -262,7 +267,3 @@ pub fn run_batch_games(num_games: usize, parallel: usize) {
     println!("Total Turns Simulated: {}", total_turns);
     println!("===================================");
 }
-
-
-
-
