@@ -1,5 +1,4 @@
-﻿use anyhow::Result;
-
+﻿
 pub struct GameLoop {
     tick_rate: u32,
 }

@@ -1,5 +1,5 @@
 ﻿use bevy::prelude::*;
-use bevy::app::ScheduleRunnerPlugin;
+use bevy::app::{AppExit, ScheduleRunnerPlugin};
 use std::thread;
 use std::time::{Duration, Instant};
 use std::sync::mpsc::{channel, Sender};
@@ -257,3 +257,4 @@ pub fn run_batch_games(num_games: usize, parallel: usize) {
     println!("Total Turns Simulated: {}", total_turns);
     println!("===================================");
 }
+

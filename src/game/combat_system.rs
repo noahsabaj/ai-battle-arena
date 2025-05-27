@@ -1,6 +1,7 @@
 ﻿use bevy::prelude::*;
 use crate::units::{Unit, HexPosition, Dead};
 use crate::units::movement::hex_distance;
+use crate::config::{SimulationConfig, SimulationMode};
 
 #[derive(Event)]
 pub struct CombatEvent {
@@ -43,6 +44,7 @@ fn resolve_combat(
     mut commands: Commands,
     mut combat_events: EventReader<CombatEvent>,
     mut units: Query<&mut Unit>,
+    sim_config: Res<SimulationConfig>,
 ) {
     for event in combat_events.read() {
         // Apply damage to defender
@@ -51,8 +53,10 @@ fn resolve_combat(
             
             if defender_unit.health <= 0.0 {
                 commands.entity(event.defender).insert(Dead);
-                println!("     {} {:?} Fighter defeated!", 
-                    defender_unit.team.tag(), defender_unit.team);
+                if sim_config.modes.default == SimulationMode::Visual {
+                    println!("     {} {:?} Fighter defeated!", 
+                        defender_unit.team.tag(), defender_unit.team);
+                }
             }
         }
     }

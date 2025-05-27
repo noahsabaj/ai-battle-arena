@@ -22,13 +22,13 @@ fn spawn_initial_units(
 ) {
     let is_visual = sim_config.modes.default == SimulationMode::Visual;
     
-    println!("[START] GAME START - Spawning units!");
-    println!("----------------------------------------");
+    if sim_config.modes.default == SimulationMode::Visual { println!("[START] GAME START - Spawning units!"); }
+    if sim_config.modes.default == SimulationMode::Visual { println!("----------------------------------------"); }
     
     // Spawn Red team
     for i in 0..6 {
         let coord = HexCoord { q: -8 + i * 2, r: -5 };
-        println!("[RED]  Spawning RED  Fighter {} at ({}, {})", i + 1, coord.q, coord.r);
+        if sim_config.modes.default == SimulationMode::Visual { println!("[RED]  Spawning RED  Fighter {} at ({}, {})", i + 1, coord.q, coord.r); }
         
         if is_visual {
             // Visual mode with meshes
@@ -57,7 +57,7 @@ fn spawn_initial_units(
     // Spawn Blue team
     for i in 0..6 {
         let coord = HexCoord { q: -8 + i * 2, r: 5 };
-        println!("[BLUE] Spawning BLUE Fighter {} at ({}, {})", i + 1, coord.q, coord.r);
+        if sim_config.modes.default == SimulationMode::Visual { println!("[BLUE] Spawning BLUE Fighter {} at ({}, {})", i + 1, coord.q, coord.r); }
         
         if is_visual {
             // Visual mode with meshes
@@ -83,7 +83,7 @@ fn spawn_initial_units(
         }
     }
     
-    println!("----------------------------------------");
+    if sim_config.modes.default == SimulationMode::Visual { println!("----------------------------------------"); }
 }
 
 fn spawn_visual_unit(
@@ -148,3 +148,4 @@ fn spawn_headless_unit(
         Transform::default(),
     ));
 }
+

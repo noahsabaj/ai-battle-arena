@@ -16,6 +16,7 @@ pub struct GameSettings {
     pub map_width: i32,
     pub map_height: i32,
     pub units_per_team: usize,
+    pub max_turns: u32,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -53,6 +54,7 @@ impl Default for GameConfig {
                 map_width: 20,
                 map_height: 15,
                 units_per_team: 6,
+                max_turns: 2000,
             },
             combat: CombatSettings {
                 base_damage: 35.0,
@@ -83,3 +85,4 @@ impl Plugin for ConfigPlugin {
         app.insert_resource(config);
     }
 }
+

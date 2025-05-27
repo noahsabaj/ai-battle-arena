@@ -6,9 +6,7 @@ pub mod state_serialization;
 pub mod replay;
 pub mod batch_runner;
 
-pub use game_loop::GameLoop;
-pub use state::GameState;
-pub use headless::{HeadlessPlugin, in_visual_mode, in_headless_mode};
+pub use headless::HeadlessPlugin;
 pub use state_serialization::{StateSerializationPlugin, StateRecorder};
-pub use replay::{ReplayPlugin, ReplayRecorder, ReplayPlayer};
-pub use batch_runner::{BatchRunnerPlugin, run_batch_games};
+pub use replay::{ReplayPlugin, ReplayRecorder};
+pub use batch_runner::run_batch_games;

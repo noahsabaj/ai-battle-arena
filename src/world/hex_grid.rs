@@ -33,8 +33,8 @@ impl Plugin for HexGridPlugin {
 
 fn spawn_hex_grid(
     mut commands: Commands,
-    mut meshes: Option<ResMut<Assets<Mesh>>>,
-    mut materials: Option<ResMut<Assets<ColorMaterial>>>,
+    meshes: Option<ResMut<Assets<Mesh>>>,
+    materials: Option<ResMut<Assets<ColorMaterial>>>,
     sim_config: Res<SimulationConfig>,
 ) {
     // Only spawn visual hex grid in visual mode

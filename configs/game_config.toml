@@ -1,5 +1,6 @@
 ﻿# Game Configuration
 [game]
+max_turns = 2000  # Maximum turns before draw
 tick_rate = 0.5  # Seconds between turns (0.5 = 2 TPS)
 map_width = 20
 map_height = 15
@@ -17,3 +18,4 @@ movement_range = 1
 target_tps = 1000  # Target ticks per second in headless mode
 enable_metrics = true
 metrics_interval = 5.0  # Seconds between metric reports
+

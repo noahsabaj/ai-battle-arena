@@ -1,6 +1,4 @@
 ﻿use bevy::prelude::*;
-use bevy::app::ScheduleRunnerPlugin;
-use std::time::Duration;
 use crate::config::SimulationConfig;
 
 pub struct HeadlessPlugin;

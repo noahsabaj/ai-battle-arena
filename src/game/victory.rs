@@ -15,10 +15,19 @@ impl Plugin for VictoryPlugin {
 }
 
 pub fn check_victory(
+    turn_state: Res<crate::game::TurnState>,
+    config: Res<crate::config::GameConfig>,
     units: Query<&Unit, Without<Dead>>,
     mut game_over: ResMut<GameOver>,
 ) {
     if game_over.0 {
+        return;
+    }
+    
+    // Check turn limit
+    if turn_state.turn >= config.game.max_turns {
+        // println!("\n[TIMEOUT] Game ended - turn limit reached!");
+        game_over.0 = true;
         return;
     }
     
@@ -33,15 +42,15 @@ pub fn check_victory(
     
     match (red_count, blue_count) {
         (0, 0) => {
-            println!("\n[DRAW] DRAW! Both teams eliminated!");
+            // println!("\n[DRAW] DRAW! Both teams eliminated!");
             game_over.0 = true;
         }
         (0, _) => {
-            println!("\n[BLUE] BLUE TEAM WINS!");
+            // println!("\n[BLUE] BLUE TEAM WINS!");
             game_over.0 = true;
         }
         (_, 0) => {
-            println!("\n[RED]  RED TEAM WINS!");
+            // println!("\n[RED]  RED TEAM WINS!");
             game_over.0 = true;
         }
         _ => {}
@@ -51,3 +60,5 @@ pub fn check_victory(
 pub fn game_over(game_over: Res<GameOver>) -> bool {
     game_over.0
 }
+
+
