@@ -10,3 +10,6 @@ pub use headless::HeadlessPlugin;
 pub use state_serialization::{StateSerializationPlugin, StateRecorder};
 pub use replay::{ReplayPlugin, ReplayRecorder};
 pub use batch_runner::run_batch_games;
+
+pub mod unified;
+pub use unified::{UnifiedGamePlugin, CoreGameplay, VisualOnly, HeadlessOnly};

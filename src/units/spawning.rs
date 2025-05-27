@@ -32,8 +32,8 @@ fn spawn_initial_units(
     // Spawn Red team
     for i in 0..units_per_team {
         let coord = HexCoord { 
-            q: -8 + (i as i32 % 8) * 2, 
-            r: -5 - (i as i32 / 8) 
+            q: -8 + (i as i32) * 2, 
+            r: -5 
         };
         if sim_config.modes.default == SimulationMode::Visual { 
             println!("[RED]  Spawning RED  Fighter {} at ({}, {})", i + 1, coord.q, coord.r); 
@@ -66,8 +66,8 @@ fn spawn_initial_units(
     // Spawn Blue team
     for i in 0..units_per_team {
         let coord = HexCoord { 
-            q: -8 + (i as i32 % 8) * 2, 
-            r: 5 + (i as i32 / 8) 
+            q: -8 + (i as i32) * 2, 
+            r: 5 
         };
         if sim_config.modes.default == SimulationMode::Visual { 
             println!("[BLUE] Spawning BLUE Fighter {} at ({}, {})", i + 1, coord.q, coord.r); 

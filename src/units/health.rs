@@ -9,7 +9,22 @@ pub struct HealthPlugin;
 
 impl Plugin for HealthPlugin {
     fn build(&self, app: &mut App) {
-        app.add_systems(Update, (update_health_bars, remove_dead_units));
+        app.add_systems(Update, (
+            update_health_bars,
+            mark_dead_units,
+            remove_dead_units.after(mark_dead_units),
+        ));
+    }
+}
+
+pub fn mark_dead_units(
+    mut commands: Commands,
+    units: Query<(Entity, &Unit), Without<Dead>>,
+) {
+    for (entity, unit) in &units {
+        if unit.health <= 0.0 {
+            commands.entity(entity).insert(Dead);
+        }
     }
 }
 

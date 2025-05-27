@@ -31,7 +31,7 @@ fn victory_banner_system(
             (0, 0) => "DRAW!",
             (0, _) => "BLUE TEAM WINS!",
             (_, 0) => "RED TEAM WINS!",
-            _ => unreachable!(),
+            _ => "GAME CONTINUES...", // This was the unreachable case
         };
         
         commands.spawn((

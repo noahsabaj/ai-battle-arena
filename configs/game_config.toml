@@ -1,13 +1,13 @@
-﻿# Game Configuration
+﻿# Game Configuration  
 [game]
-max_turns = 2000  # Maximum turns before draw
-tick_rate = 0.5  # Seconds between turns (0.5 = 2 TPS)
+max_turns = 2000
+tick_rate = 0.001  # 1ms for headless
 map_width = 20
 map_height = 15
-units_per_team = 12  # More units for better performance testing
+units_per_team = 6
 
 [combat]
-base_damage = 70.0  # Increased from 35 to make combat more decisive
+base_damage = 35.0
 attack_range = 1
 
 [units]
@@ -15,6 +15,6 @@ base_health = 100.0
 movement_range = 1
 
 [performance]
-target_tps = 1000  # Target ticks per second in headless mode
-enable_metrics = true
-metrics_interval = 5.0  # Seconds between metric reports
+target_tps = 1000
+enable_metrics = false  # Disable for performance
+metrics_interval = 5.0
