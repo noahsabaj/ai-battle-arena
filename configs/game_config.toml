@@ -7,7 +7,7 @@ map_height = 15
 units_per_team = 12  # More units for better performance testing
 
 [combat]
-base_damage = 35.0
+base_damage = 70.0  # Increased from 35 to make combat more decisive
 attack_range = 1
 
 [units]
@@ -18,4 +18,3 @@ movement_range = 1
 target_tps = 1000  # Target ticks per second in headless mode
 enable_metrics = true
 metrics_interval = 5.0  # Seconds between metric reports
-
