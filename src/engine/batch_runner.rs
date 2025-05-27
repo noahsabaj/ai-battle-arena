@@ -1,8 +1,10 @@
 ﻿use bevy::prelude::*;
 use bevy::app::{AppExit, ScheduleRunnerPlugin};
 use std::thread;
+use std::sync::Arc;
+use std::sync::Mutex;
 use std::time::{Duration, Instant};
-use std::sync::mpsc::{channel, Sender};
+use std::sync::mpsc::channel;
 use crate::config::{GameConfig, SimulationConfig, SimulationMode};
 
 #[derive(Clone)]
@@ -135,6 +137,9 @@ fn run_single_game(game_id: usize, config: &BatchGameConfig) -> GameResult {
         turns: 0,
         completed: false,
     });
+    app.insert_resource(config.game_config.clone());
+    
+    
     
     app.add_systems(Update, check_game_end);
     
@@ -257,4 +262,7 @@ pub fn run_batch_games(num_games: usize, parallel: usize) {
     println!("Total Turns Simulated: {}", total_turns);
     println!("===================================");
 }
+
+
+
 

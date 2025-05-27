@@ -51,8 +51,8 @@ impl AiController for RandomAi {
         let nearest_enemy = enemies
             .iter()
             .min_by_key(|enemy_pos| {
-                let _dq = enemy_pos.q - my_pos.q;
-                let _dr = enemy_pos.r - my_pos.r;
+                let dq = enemy_pos.q - my_pos.q;
+                let dr = enemy_pos.r - my_pos.r;
                 dq.abs() + dr.abs() + (dq + dr).abs()
             })
             .unwrap();
