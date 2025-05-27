@@ -1,26 +1,35 @@
 ﻿use rand::{seq::SliceRandom, Rng, SeedableRng, rngs::SmallRng};
 use bevy::prelude::Entity;
 
-use crate::world::{actions::Action, hex_grid::HexCoord, unit::Team};
+use crate::world::actions::Action;
+use crate::units::Unit;
 use super::{AiController, WorldSnapshot};
 
 /// Very simple AI: 50 % chance to stay, otherwise pick a random axial neighbour.
 pub struct RandomAi {
     rng: SmallRng,
 }
+
 impl RandomAi {
-    pub fn new() -> Self { Self { rng: SmallRng::from_entropy() } }
+    pub fn new() -> Self { 
+        Self { rng: SmallRng::from_entropy() } 
+    }
 }
-impl Default for RandomAi { fn default() -> Self { Self::new() } }
+
+impl Default for RandomAi { 
+    fn default() -> Self { 
+        Self::new() 
+    }
+}
 
 impl AiController for RandomAi {
     fn decide(
         &mut self,
         _unit_id: Entity,
-        _self_state: &crate::world::unit::Unit,
+        _self_state: &Unit,
         world: &WorldSnapshot,
     ) -> Action {
-        // get *this* unit’s position
+        // get *this* unit's position
         let (_, _, my_hex) = world.units
             .iter()
             .find(|(e, _, _)| *e == _unit_id)
@@ -38,8 +47,4 @@ impl AiController for RandomAi {
         Action::Move(dq,dr)
     }
 }
-
-
-
-
 

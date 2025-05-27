@@ -16,6 +16,8 @@ log = "0.4"
 env_logger = "0.10"
 
 # Serialization
+toml = "0.8"
+# Serialization
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 
@@ -34,6 +36,7 @@ indexmap = "2.1"
 
 # Python integration (we'll add this later)
 # pyo3 = { version = "0.20", features = ["auto-initialize"] }
+
 
 
 

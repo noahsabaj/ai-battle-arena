@@ -1,0 +1,150 @@
+﻿use bevy::prelude::*;
+use bevy::sprite::{MaterialMesh2dBundle, Sprite, SpriteBundle};
+use crate::world::HexCoord;
+use crate::units::{Unit, HexPosition, Team, UnitType};
+use crate::units::health::HealthBar;
+use crate::units::movement::hex_to_world_pos;
+use crate::config::{SimulationConfig, SimulationMode};
+
+pub struct SpawningPlugin;
+
+impl Plugin for SpawningPlugin {
+    fn build(&self, app: &mut App) {
+        app.add_systems(Startup, spawn_initial_units);
+    }
+}
+
+fn spawn_initial_units(
+    mut commands: Commands,
+    mut meshes: Option<ResMut<Assets<Mesh>>>,
+    mut materials: Option<ResMut<Assets<ColorMaterial>>>,
+    sim_config: Res<SimulationConfig>,
+) {
+    let is_visual = sim_config.modes.default == SimulationMode::Visual;
+    
+    println!("[START] GAME START - Spawning units!");
+    println!("----------------------------------------");
+    
+    // Spawn Red team
+    for i in 0..6 {
+        let coord = HexCoord { q: -8 + i * 2, r: -5 };
+        println!("[RED]  Spawning RED  Fighter {} at ({}, {})", i + 1, coord.q, coord.r);
+        
+        if is_visual {
+            // Visual mode with meshes
+            if let (Some(ref mut meshes), Some(ref mut materials)) = (&mut meshes, &mut materials) {
+                let unit_mesh = meshes.add(Circle::new(15.0));
+                spawn_visual_unit(
+                    &mut commands,
+                    coord,
+                    Team::Red,
+                    UnitType::Fighter,
+                    unit_mesh,
+                    materials.add(ColorMaterial::from(Team::Red.color())),
+                );
+            }
+        } else {
+            // Headless mode without visuals
+            spawn_headless_unit(
+                &mut commands,
+                coord,
+                Team::Red,
+                UnitType::Fighter,
+            );
+        }
+    }
+    
+    // Spawn Blue team
+    for i in 0..6 {
+        let coord = HexCoord { q: -8 + i * 2, r: 5 };
+        println!("[BLUE] Spawning BLUE Fighter {} at ({}, {})", i + 1, coord.q, coord.r);
+        
+        if is_visual {
+            // Visual mode with meshes
+            if let (Some(ref mut meshes), Some(ref mut materials)) = (&mut meshes, &mut materials) {
+                let unit_mesh = meshes.add(Circle::new(15.0));
+                spawn_visual_unit(
+                    &mut commands,
+                    coord,
+                    Team::Blue,
+                    UnitType::Fighter,
+                    unit_mesh,
+                    materials.add(ColorMaterial::from(Team::Blue.color())),
+                );
+            }
+        } else {
+            // Headless mode without visuals
+            spawn_headless_unit(
+                &mut commands,
+                coord,
+                Team::Blue,
+                UnitType::Fighter,
+            );
+        }
+    }
+    
+    println!("----------------------------------------");
+}
+
+fn spawn_visual_unit(
+    commands: &mut Commands,
+    coord: HexCoord,
+    team: Team,
+    unit_type: UnitType,
+    mesh: Handle<Mesh>,
+    material: Handle<ColorMaterial>,
+) {
+    let world_pos = hex_to_world_pos(coord.q, coord.r);
+    
+    let unit_entity = commands.spawn((
+        MaterialMesh2dBundle {
+            mesh: mesh.into(),
+            material,
+            transform: Transform::from_translation(Vec3::new(world_pos.x, world_pos.y, 1.0)),
+            ..default()
+        },
+        Unit {
+            team,
+            unit_type,
+            health: 100.0,
+            max_health: 100.0,
+        },
+        HexPosition { coord },
+    )).id();
+    
+    // Spawn health bar as child
+    let health_bar = commands.spawn((
+        SpriteBundle {
+            sprite: Sprite {
+                color: Color::GREEN,
+                custom_size: Some(Vec2::new(60.0, 8.0)),
+                ..default()
+            },
+            transform: Transform::from_translation(Vec3::new(0.0, 28.0, 3.0)),
+            ..default()
+        },
+        HealthBar,
+    )).id();
+    
+    commands.entity(unit_entity).add_child(health_bar);
+}
+
+fn spawn_headless_unit(
+    commands: &mut Commands,
+    coord: HexCoord,
+    team: Team,
+    unit_type: UnitType,
+) {
+    // In headless mode, just spawn the unit data without visuals
+    commands.spawn((
+        Unit {
+            team,
+            unit_type,
+            health: 100.0,
+            max_health: 100.0,
+        },
+        HexPosition { coord },
+        // Add a transform even in headless for spatial queries
+        Transform::default(),
+    ));
+}

@@ -1,0 +1,19 @@
+﻿# Game Configuration
+[game]
+tick_rate = 0.5  # Seconds between turns (0.5 = 2 TPS)
+map_width = 20
+map_height = 15
+units_per_team = 12  # More units for better performance testing
+
+[combat]
+base_damage = 35.0
+attack_range = 1
+
+[units]
+base_health = 100.0
+movement_range = 1
+
+[performance]
+target_tps = 1000  # Target ticks per second in headless mode
+enable_metrics = true
+metrics_interval = 5.0  # Seconds between metric reports

@@ -1,0 +1,15 @@
+﻿# Simulation Modes Configuration
+[modes]
+default = "visual"  # "visual" or "headless"
+
+[visual]
+enable_rendering = true
+enable_ui = true
+vsync = true
+frame_cap = 60
+
+[headless]
+enable_rendering = false
+enable_ui = false
+fixed_timestep = true
+timestep_hz = 1000  # 1000 TPS target

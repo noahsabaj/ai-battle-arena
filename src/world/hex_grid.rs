@@ -1,6 +1,7 @@
 ﻿use bevy::prelude::*;
 use bevy::sprite::MaterialMesh2dBundle;
 use bevy::render::render_asset::RenderAssetUsages;
+use crate::config::{SimulationConfig, SimulationMode};
 
 const HEX_SIZE: f32 = 30.0;
 const GRID_WIDTH: i32 = 20;
@@ -32,29 +33,38 @@ impl Plugin for HexGridPlugin {
 
 fn spawn_hex_grid(
     mut commands: Commands,
-    mut meshes: ResMut<Assets<Mesh>>,
-    mut materials: ResMut<Assets<ColorMaterial>>,
+    mut meshes: Option<ResMut<Assets<Mesh>>>,
+    mut materials: Option<ResMut<Assets<ColorMaterial>>>,
+    sim_config: Res<SimulationConfig>,
 ) {
-    // Create hex mesh
-    let hex_mesh = create_hex_mesh(HEX_SIZE);
-    let mesh_handle = meshes.add(hex_mesh);
+    // Only spawn visual hex grid in visual mode
+    if sim_config.modes.default != SimulationMode::Visual {
+        return;
+    }
     
-    // Spawn hexagons
-    for q in -GRID_WIDTH/2..GRID_WIDTH/2 {
-        for r in -GRID_HEIGHT/2..GRID_HEIGHT/2 {
-            let pos = hex_to_world_pos(q, r);
-            
-            commands.spawn((
-                MaterialMesh2dBundle {
-                    mesh: mesh_handle.clone().into(),
-                    material: materials.add(ColorMaterial::from(Color::rgb(0.2, 0.3, 0.4))),
-                    transform: Transform::from_translation(Vec3::new(pos.x, pos.y, 0.0)),
-                    ..default()
-                },
-                HexTile { 
-                    coord: HexCoord { q, r } 
-                },
-            ));
+    // Check if we have rendering resources
+    if let (Some(mut meshes), Some(mut materials)) = (meshes, materials) {
+        // Create hex mesh
+        let hex_mesh = create_hex_mesh(HEX_SIZE);
+        let mesh_handle = meshes.add(hex_mesh);
+        
+        // Spawn hexagons
+        for q in -GRID_WIDTH/2..GRID_WIDTH/2 {
+            for r in -GRID_HEIGHT/2..GRID_HEIGHT/2 {
+                let pos = hex_to_world_pos(q, r);
+                
+                commands.spawn((
+                    MaterialMesh2dBundle {
+                        mesh: mesh_handle.clone().into(),
+                        material: materials.add(ColorMaterial::from(Color::rgb(0.2, 0.3, 0.4))),
+                        transform: Transform::from_translation(Vec3::new(pos.x, pos.y, 0.0)),
+                        ..default()
+                    },
+                    HexTile { 
+                        coord: HexCoord { q, r } 
+                    },
+                ));
+            }
         }
     }
 }

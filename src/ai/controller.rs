@@ -2,8 +2,8 @@
 use crate::world::{
     actions::Action,
     hex_grid::HexCoord,
-    unit::{Unit, Team},
 };
+use crate::units::{Unit, Team};
 
 /// Read-only snapshot the AI may inspect each turn.
 #[derive(Clone)]

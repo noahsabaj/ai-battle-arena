@@ -1,0 +1,3788 @@
+[
+  {
+    "turn": 0,
+    "time": 0.0,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -6,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -4,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -2,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          0,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          2,
+          -5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -8,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -6,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -4,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -2,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          0,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          2,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 0,
+    "time": 0.0,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -6,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -4,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -2,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          0,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          2,
+          -5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -8,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -6,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -4,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -2,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          0,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          2,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 0,
+    "time": 0.0,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -6,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -4,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -2,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          0,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          2,
+          -5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -8,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -6,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -4,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -2,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          0,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          2,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "time": 0.0161816,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          -6
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -6,
+          -4
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -7,
+          -2
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -4,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          1,
+          -4
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          3,
+          -6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -7,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -4,
+          1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -5,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -2,
+          2
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          1,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          3,
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 20,
+    "time": 0.0322344,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          -6
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -6,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          -2
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -5,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          3,
+          -6
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          2,
+          -5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -6,
+          4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -2,
+          1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -3,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -1,
+          1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          1,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          4,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 30,
+    "time": 0.0484373,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          -4
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -5,
+          -6
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          -3
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -5,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          3,
+          -6
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          2,
+          -5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -5,
+          4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -1,
+          1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -1,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -1,
+          3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          2,
+          4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          4,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 40,
+    "time": 0.0646876,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -7,
+          -4
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -5,
+          -6
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -7,
+          -6
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -4,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          3,
+          -3
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          3,
+          -5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -9,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -1,
+          0
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -3,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -2,
+          4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          2,
+          4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          5,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 50,
+    "time": 0.0806955,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -9,
+          -4
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -3,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -7,
+          -6
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -7,
+          -4
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          3,
+          -3
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          2,
+          -5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -7,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -2,
+          -1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -3,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -4,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          3,
+          4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          6,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 60,
+    "time": 0.09715231,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -7,
+          -6
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -5,
+          -2
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -7,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          -4
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          3,
+          -3
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          1,
+          -3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -6,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -5,
+          0
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -2,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -4,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          3,
+          4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          6,
+          -1
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 70,
+    "time": 0.114040494,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -6,
+          -6
+        ]
+      },
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -3,
+          -3
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -9,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -9,
+          -6
+        ]
+      },
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          7,
+          -2
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          0,
+          -3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -8,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          -4,
+          -1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -2,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -2,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          5,
+          1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          5,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 80,
+    "time": 0.130221,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -7,
+          -5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          5,
+          1
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          -6
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -9,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          8,
+          -3
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -1,
+          -3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -9,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          6,
+          -1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -2,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -3,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 90,
+    "time": 0.1469188,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -7,
+          -6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          6,
+          -2
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          -6
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -9,
+          -5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          0,
+          5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -2,
+          -2
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -8,
+          4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 100,
+    "time": 0.16304381,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          -6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          6,
+          -5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          -4
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -9,
+          -5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          0,
+          4
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          1,
+          -3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -4,
+          1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          0,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 110,
+    "time": 0.17920871,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -9,
+          -6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          5,
+          -3
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          -1
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -9,
+          -4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          0,
+          5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          3,
+          -5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -3,
+          -2
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          1,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 120,
+    "time": 0.1954128,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -9,
+          -6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 65.0,
+        "position": [
+          4,
+          -3
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          -1
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          -4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -2,
+          6
+        ]
+      },
+      {
+        "team": "red",
+        "health": 65.0,
+        "position": [
+          4,
+          -4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -5,
+          0
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 130,
+    "time": 0.2115324,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -9,
+          -3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -4,
+          -2
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -9,
+          0
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -9,
+          -6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          1,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 140,
+    "time": 0.22777769,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -7,
+          -4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -4,
+          -3
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -6,
+          0
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          -6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          6,
+          3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          1,
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 150,
+    "time": 0.24429981,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -6,
+          -4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -5,
+          -6
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -6,
+          3
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          -4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          4,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          1,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 160,
+    "time": 0.2602787,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -7,
+          -4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -4,
+          -4
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -4,
+          1
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          -5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          1,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          1,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 170,
+    "time": 0.276445,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -7,
+          -5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -2,
+          -4
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -3,
+          3
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -9,
+          -4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          3,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 180,
+    "time": 0.2929268,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -7,
+          -3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -2,
+          -3
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -4,
+          3
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -6,
+          -4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          1,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          1,
+          -1
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 190,
+    "time": 0.3092954,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -9,
+          -4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          0,
+          -4
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -3,
+          5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -3,
+          -6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          3,
+          4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          4,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 200,
+    "time": 0.3261785,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -9,
+          -4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -1,
+          -3
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          0,
+          4
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -3,
+          -6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          2,
+          4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          3,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 210,
+    "time": 0.3381162,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          -2
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -1,
+          -2
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          3,
+          2
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -2,
+          -6
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 220,
+    "time": 0.3516886,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          0
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -4,
+          -3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -1,
+          5
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -2,
+          -6
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 230,
+    "time": 0.36591572,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -9,
+          0
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -5,
+          -2
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -1,
+          -1
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -2,
+          -3
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 240,
+    "time": 0.3818902,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          -1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          -3,
+          -2
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          0,
+          -2
+        ]
+      },
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -1,
+          -5
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 250,
+    "time": 0.3967082,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -9,
+          1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          -4,
+          -2
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 100.0,
+        "position": [
+          0,
+          -2
+        ]
+      },
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -1,
+          -3
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 260,
+    "time": 0.40792292,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -9,
+          4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          -5,
+          -3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          0,
+          -4
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 270,
+    "time": 0.41838843,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -9,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          -6,
+          -1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          1,
+          -3
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 280,
+    "time": 0.4312195,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -9,
+          3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          -6,
+          -1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          1,
+          -2
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 290,
+    "time": 0.4445988,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -8,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          -7,
+          0
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          3,
+          -3
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 300,
+    "time": 0.45905128,
+    "units": [
+      {
+        "team": "red",
+        "health": 100.0,
+        "position": [
+          -7,
+          4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          -8,
+          2
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          4,
+          -2
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 310,
+    "time": 0.4719011,
+    "units": [
+      {
+        "team": "red",
+        "health": 65.0,
+        "position": [
+          -7,
+          3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          5,
+          -3
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 320,
+    "time": 0.4868644,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -4,
+          2
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          5,
+          -3
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 330,
+    "time": 0.5036036,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -6,
+          3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          5,
+          -2
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 340,
+    "time": 0.51973796,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -6,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          6,
+          -4
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 350,
+    "time": 0.53595716,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -6,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          4,
+          -2
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 360,
+    "time": 0.54895097,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -5,
+          4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          4,
+          -2
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 370,
+    "time": 0.5614983,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -4,
+          1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          4,
+          -4
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 370,
+    "time": 0.5614983,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -4,
+          1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          4,
+          -4
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 380,
+    "time": 0.57447785,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -4,
+          2
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          4,
+          -4
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 390,
+    "time": 0.5853559,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -2,
+          1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          1,
+          -5
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 400,
+    "time": 0.5957893,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -2,
+          0
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          0,
+          -5
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 410,
+    "time": 0.6108073,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -1,
+          -2
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          0,
+          -6
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 420,
+    "time": 0.6246798,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -2,
+          -4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          2,
+          -6
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 430,
+    "time": 0.6413175,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -5,
+          -3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          1,
+          -6
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 440,
+    "time": 0.6566457,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -6,
+          -2
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          -1,
+          -2
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 450,
+    "time": 0.6675051,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -4,
+          -3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          1,
+          -2
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 460,
+    "time": 0.6808024,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -3,
+          -2
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 470,
+    "time": 0.6928199,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -3,
+          1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          2,
+          -1
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 480,
+    "time": 0.7033059,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          0,
+          -1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          3,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 490,
+    "time": 0.717735,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          3,
+          -2
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          3,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 500,
+    "time": 0.7301531,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          0,
+          -2
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          3,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 510,
+    "time": 0.7427352,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -3,
+          0
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          4,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 520,
+    "time": 0.7561391,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -3,
+          0
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          5,
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 530,
+    "time": 0.76690865,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -4,
+          -1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          8,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 540,
+    "time": 0.7800654,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -6,
+          1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          7,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 550,
+    "time": 0.7947971,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -8,
+          0
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          6,
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 560,
+    "time": 0.8052247,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -9,
+          0
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          7,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 570,
+    "time": 0.81750005,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -6,
+          0
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          8,
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 580,
+    "time": 0.8334595,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -8,
+          0
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          6,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 590,
+    "time": 0.8478707,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -9,
+          1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          7,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 600,
+    "time": 0.85976446,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -8,
+          0
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          4,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 610,
+    "time": 0.87191784,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -7,
+          1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          4,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 620,
+    "time": 0.8862475,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -8,
+          4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          4,
+          -1
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 630,
+    "time": 0.9023976,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -9,
+          4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          5,
+          -1
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 640,
+    "time": 0.9145804,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -9,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          6,
+          -1
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 650,
+    "time": 0.9249291,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -6,
+          4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          7,
+          -3
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 660,
+    "time": 0.93608356,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -7,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          7,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 670,
+    "time": 0.9521823,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -9,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          8,
+          -3
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 680,
+    "time": 0.9682123,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -9,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          7,
+          -4
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 690,
+    "time": 0.9805007,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -7,
+          2
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          6,
+          -3
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 700,
+    "time": 0.9934663,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -9,
+          2
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          6,
+          -3
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 710,
+    "time": 1.0084256,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -8,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          8,
+          -5
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 720,
+    "time": 1.0216964,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -9,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          7,
+          -5
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 730,
+    "time": 1.0344887,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -9,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          5,
+          -5
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 740,
+    "time": 1.0508295,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -8,
+          3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          5,
+          -5
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 750,
+    "time": 1.0676036,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -9,
+          4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          6,
+          -6
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 760,
+    "time": 1.0846066,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -6,
+          2
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          7,
+          -5
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 770,
+    "time": 1.1012425,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -8,
+          3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          5,
+          -4
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 780,
+    "time": 1.1178164,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -9,
+          3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          6,
+          -6
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 790,
+    "time": 1.134037,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -8,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          5,
+          -4
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 800,
+    "time": 1.1507022,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -9,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          4,
+          -6
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 810,
+    "time": 1.1674248,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -6,
+          3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          4,
+          -6
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 820,
+    "time": 1.183641,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -4,
+          2
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          1,
+          -2
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 830,
+    "time": 1.2003174,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -4,
+          3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          2,
+          -3
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 840,
+    "time": 1.216533,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -5,
+          3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          1,
+          -3
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 850,
+    "time": 1.2330763,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -4,
+          1
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          1,
+          -4
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 860,
+    "time": 1.2496345,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -1,
+          2
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          0,
+          -3
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 870,
+    "time": 1.2658079,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -3,
+          4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          0,
+          -1
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 880,
+    "time": 1.2823541,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -1,
+          4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          1,
+          -1
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 890,
+    "time": 1.2989464,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -4,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          -2,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 900,
+    "time": 1.316009,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -6,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          -1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 910,
+    "time": 1.3317721,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -4,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          -1,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 920,
+    "time": 1.3484634,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -6,
+          4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          -2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 930,
+    "time": 1.3651955,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -8,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          0,
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 940,
+    "time": 1.3815967,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -9,
+          4
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          1,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 950,
+    "time": 1.3979719,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -6,
+          3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          -3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 960,
+    "time": 1.4145217,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -6,
+          5
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          -3,
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 970,
+    "time": 1.4313055,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -6,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          -2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 980,
+    "time": 1.4476128,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -7,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          -2,
+          -1
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 990,
+    "time": 1.4642373,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -5,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          -1,
+          -1
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 1000,
+    "time": 1.4808224,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -5,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          1,
+          -2
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 1010,
+    "time": 1.497601,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -3,
+          6
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          -2,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 1020,
+    "time": 1.5164459,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          2,
+          3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          -1,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "turn": 1030,
+    "time": 1.5345898,
+    "units": [
+      {
+        "team": "red",
+        "health": 30.0,
+        "position": [
+          -1,
+          3
+        ]
+      },
+      {
+        "team": "blue",
+        "health": 30.0,
+        "position": [
+          -1,
+          6
+        ]
+      }
+    ]
+  }
+]
